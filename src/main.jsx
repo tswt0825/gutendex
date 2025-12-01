@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Category from "./pages/Category";
 import Favorites from "./pages/Favorites";
 import BookDetails from "./pages/BookDetails";
-import "./index.css";
+import "./styles/main.css";
 
 const router = createBrowserRouter(
   [
