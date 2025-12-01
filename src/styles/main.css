@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f3f3f3;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #222;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.search-form {
+  display: flex;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 0.4rem 0.6rem;
+}
+
+.search-form button {
+  padding: 0.4rem 0.8rem;
+}
+
+.nav,
+.categories {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.main {
+  padding: 1rem;
+  flex: 1;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.book-card {
+  background: white;
+  padding: 0.8rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.book-card h3 {
+  font-size: 1rem;
+  margin: 0.4rem 0;
+}
+
+.book-card button {
+  margin-top: auto;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.details img {
+  max-width: 250px;
+  border-radius: 8px;
+}
+
+.pagination {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.error {
+  color: darkred;
+  font-weight: 500;
+}
