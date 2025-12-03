@@ -30,7 +30,7 @@ function Header() {
   return (
     <header className="header">
       <div className="logo-title">
-        <Link to="/">📚 Gutendex Books</Link>
+        <Link to="/">Gutendex Books</Link>
       </div>
 
       <form onSubmit={handleSubmit} className="search-form">

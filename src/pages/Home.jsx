@@ -8,7 +8,7 @@ import { useFavorites } from "../hooks/useFavorites";
 
 function Home() {
   const [searchParams, setSearchParams] = useSearchParams();
-  const query = searchParams.get("search") || "harry";
+  const query = searchParams.get("search") || "Shakespeare";
   const page = Number(searchParams.get("page") || 1);
 
   const [books, setBooks] = useState([]);
